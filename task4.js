@@ -20,9 +20,8 @@ const utils = {
     }
     return result;}
   
-    logger.log(Level.INFO, “Display message”);
+  logger.log(Level.INFO, “Display message”);
 
-  
 };
 
 module.exports = {
