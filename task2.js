@@ -132,6 +132,7 @@ const planets = {
   ],
 };
 
+
 // update only this function
 function extractSmallPlanets(planetsObject, boundaryValue) {
   const SmallPlanets = planets.results.planetsObject.filter(boundaryValue => planets.results.diameter <= "10000");
