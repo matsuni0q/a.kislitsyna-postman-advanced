@@ -5,6 +5,7 @@ Create object "utils". It should contain:
 - simple logger: has to contain 2 arguments - level (default value is "INFO"), message
 */
 
+
 const utils = {
   getRundomNumer(min, max){
     var number = Math.random() * (max - min) + min;
